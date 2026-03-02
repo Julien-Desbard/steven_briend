@@ -16,6 +16,18 @@
 
 html { scroll-behavior: smooth; }
 
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: var(--color-brand-white);
+  color: var(--color-brand-black);
+  line-height: 1.75;
+  font-size: 18px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
 ul.dash-list li {
   list-style: none;
   padding-left: 2rem;
